@@ -29,7 +29,7 @@ get 은 가져오다
 
 얘는 외워서 쓰는거임
 
-document.getElementById('???').innerHTML = '안녕';
+document.getElementById('???').뭘 바꿀지 = '안녕';
 
 바꾸고 싶은 HTML 요소 id 여따가 적어주구요 . 뒤에 뭘 바꿀지 적으셈(진짜 아무거나 가능)
 
@@ -58,6 +58,20 @@ document.getElementById('???').innerHTML = '안녕';
 
 모든 코딩은 대부분이 구글링인데 구글링을 최소화 하기 위해서 공부를 한다고 생각을 하시면
 편해요 자 그럼 이번 공부 또 시작 해보겠습니다.
+
+자 일단 우리는 이 웹 개발을 할때 쓰는 onclick 이라는 함수가 있는데
+
+이건 간단하게 설명하면 그냥 클릭 했을때 여기 있는것을 실행 뿅 하겠다 이겁니다
+
+<div class="alert-box" id="alert">Alert 박스</div>
+    <button onclick="document.getElementById('alert').style.display = 'block';">버튼</button>
+
+    아이디 추가 아디 이름은 맘대로 하셈
+
+    그다음 아까 배운것을 사용하면 됩니다.
+    
+    쉽지요? 야무지지요? 디스플레이 값을 블록으로 바꿔주면 우리가 원하는걸 띄울수 있곘지요?
+    
 
 
 
