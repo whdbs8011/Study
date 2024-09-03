@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h2>선물하기</h2>
     <script>
+        document.write("표 만들기")
+        let i,j;
+        document.write("<table border='1'>")
+        document.write("<tr>");
+        document.write("<th>n2</th>")
         
+
+        for(i=0; i<=9; i++){
+            document.write("<td>")
+                document.write(i)
+                document.write("</td>")
+                
+                
+        }
+        document.write("</tr>");
+        document.write("<table border='1'>")
+        document.write("<tr>");
+        document.write("<th>n</th>")
+        
+
+        for(i=0; i<=9; i++){
+            document.write("<td>")
+                document.write(i**2)
+                document.write("</td>")
+                
+                
+        }
+        document.write("</tr>");
+
     </script>
 </body>
 </html>
